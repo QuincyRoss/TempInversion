@@ -57,5 +57,4 @@ for i in range(len(boxpartition)-1):
     if flag == 1:
         plt.fill_betweenx([boxbottom, boxtop], tempmin-7, tempmax+7, color=colors(color_value), alpha=0.3)
         plt.text(xmid-30, ymid-600, 'Inversion', fontsize=12, color='red', ha='center', va='bottom')
-plt.savefig('inversion_example.png', dpi=1000, bbox_inches='tight')
 plt.show()
